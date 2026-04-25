@@ -3,7 +3,6 @@ setwd("~/Desktop/Lectures/Arabic20B_finalproject")
 library(tidyverse)
 library(scico)
 library(sf)
-library(ggtext)
 library(ggstar)
 library(cowplot)
 
@@ -40,7 +39,6 @@ ocean_color = '#B8CCE0'
 land_color = '#E8E2D4'
 
 cafes$chain = factor(cafes$chain, levels = rev(cafe_count$chain))
-
 
 text1 = "مع ستة دكاكين\nمقهوى «صَنْعَاء» أكبر\nعددً الأماكناً"
 text2 = "يُوجَد  أكبر أعداد المقاهي\nفي شرق المنطقة"
